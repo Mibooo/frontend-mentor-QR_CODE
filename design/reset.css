@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Pour éviter que la taille d'un élément change avec le padding ou la bordure */
+}
+
+html,
+body {
+  height: 100%; /* Assure que la page prend toute la hauteur disponible */
+  font-family: Arial, sans-serif; /* Optionnel : une police par défaut */
+}
+
+body {
+  line-height: 1.5; /* Améliore la lisibilité du texte */
+  -webkit-font-smoothing: antialiased; /* Améliore le rendu des polices sur certains navigateurs */
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img,
+picture,
+video,
+canvas {
+  max-width: 100%; /* Pour s'assurer que les médias ne débordent pas de leur conteneur */
+  display: block;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit; /* Assure que les formulaires utilisent la même police que le reste de la page */
+}
+
+a {
+  text-decoration: none; /* Supprime la décoration par défaut des liens */
+  color: inherit; /* Utilise la même couleur que le texte environnant */
+}
+
+ul,
+ol {
+  list-style: none; /* Supprime les puces et numéros des listes */
+}
+
+table {
+  border-collapse: collapse; /* Assure que les bordures des tables sont fusionnées */
+  width: 100%; /* Optionnel : assure que la table prend tout l'espace disponible */
+}
